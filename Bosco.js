@@ -1,6 +1,6 @@
 /* 
 Don't change credits🥲🚶
-Sourcecode https://github.com/pepesir/Bosco
+
 
 Want to recode? yes, it's up to you as long as you don't change the watermark
 Don't sell the SC 😐👌
@@ -22,7 +22,7 @@ const {
 	mentionedJid,
 	processTime,
 	Browsers,
-} = require("@adiwajshing/baileys")
+} = require("@Gynop")
 const moment = require("moment-timezone")
 const speed = require('performance-now')
 const { spawn, exec, execSync } = require("child_process")
@@ -203,7 +203,7 @@ module.exports = bosco = async (bosco, mek) => {
         const q = args.join(' ')
         const c = args.join(' ')
 
-        const botNumber = bosco.user.jid
+        const botNumber =Gynop.user.jid
         const ownerNumber = setting.ownerNumber
 		const ownerName = setting.ownerName
 		const botName = setting.botName
