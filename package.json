@@ -1,5 +1,5 @@
 {
-  "name": "Afiq",
+  "name": "Basco",
   "version": "1.0.0",
   "description": "Gynop",
   "main": "main.js",
@@ -12,7 +12,7 @@
   },
   "author": "Afiq",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
+    "@gynop": "^3.5.2",
     "@vitalets/google-translate-api": "^7.0.0",
     "axios": "^0.21.1",
     "cfonts": "^2.9.0",
